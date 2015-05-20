@@ -7,6 +7,7 @@
     z-index: 9999;
     background: url(../img/grey.gif) center no-repeat #fff;
 }
+
 body {
     font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
     background-color: #FFFFFF;
@@ -60,13 +61,14 @@ hr {
 }
 
 .main {
-    max-width: 1280px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 section {
     overflow: hidden;
     background: rgba(255, 255, 255, 0.4);
+    padding: 0 100px;
 }
 
 /*HEADER*/
@@ -401,3 +403,39 @@ ul.la li {
     background-color: transparent;
 }
 
+@media (max-width: 784px) {
+    body, html {
+        overflow-y: auto;
+    }
+    section {
+        padding: 0 20px;
+    }
+    .abs-mid {
+        position: relative;
+        margin: 200px auto;
+        width: auto;
+        padding: 0;
+        left: auto;
+    }
+
+    .sk-title {
+        float: inherit;
+    }
+
+    .sk-content {
+        float: inherit;
+    }
+
+    .time-range {
+        margin-right: 20px;
+        padding: 20px 40px 0;
+        width: 100%;
+    }
+
+    .employer {
+        border-left: 0;
+        padding: 0 60px 0 40px;
+        margin: 5px 0 15px 0;
+        width: 100%;
+    }
+}
