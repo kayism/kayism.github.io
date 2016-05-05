@@ -402,7 +402,9 @@ ul.la li {
 .blk .sk-circle.sk-circle-empty {
     background-color: transparent;
 }
-
+.page1 p .glyphicon {
+    top: 2px;
+}
 @media (max-width: 784px) {
     body, html {
         overflow-y: auto;
