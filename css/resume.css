@@ -9,21 +9,24 @@
 }
 
 body {
-    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
     background-color: #FFFFFF;
     color: #2b2b2b;
     background: url('../img/12.png') repeat center;
     background-size: 100% 100%;
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3 {
-    font-family: 'Special Elite', cursive;
+h1,
+h2,
+h3 {
+    /* font-family: 'Special Elite', cursive; */
     line-height: 1.25;
 }
 
@@ -111,6 +114,7 @@ h1.k {
 }
 
 /* PAGE2 */
+
 .page_container {
     padding: 20px;
 }
@@ -189,7 +193,7 @@ p.sub-heading {
 }
 
 .time-range {
-    font-family: 'Special Elite', cursive;
+    /* font-family: 'Special Elite', cursive; */
     float: left;
     margin-right: 20px;
     font-size: 20px;
@@ -236,7 +240,8 @@ p.sub-heading {
     font-weight: 400;
 }
 
-ul.unordered-list, .hentry ul {
+ul.unordered-list,
+.hentry ul {
     list-style: circle;
     line-height: 1.6;
     padding: 0 15px 16px 15px;
@@ -245,7 +250,8 @@ ul.unordered-list, .hentry ul {
     font-size: 14px;
 }
 
-.progress, .progress-bar {
+.progress,
+.progress-bar {
     height: 10px;
     margin: 0;
     padding: 0;
@@ -402,11 +408,14 @@ ul.la li {
 .blk .sk-circle.sk-circle-empty {
     background-color: transparent;
 }
+
 .page1 p .glyphicon {
     top: 2px;
 }
+
 @media (max-width: 784px) {
-    body, html {
+    body,
+    html {
         overflow-y: auto;
     }
     section {
@@ -419,21 +428,17 @@ ul.la li {
         padding: 0;
         left: auto;
     }
-
     .sk-title {
         float: inherit;
     }
-
     .sk-content {
         float: inherit;
     }
-
     .time-range {
         margin-right: 20px;
         padding: 20px 40px 0;
         width: 100%;
     }
-
     .employer {
         border-left: 0;
         padding: 0 60px 0 40px;
